@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jingtian's Homepage</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/css/uikit.min.css" />
+
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/js/uikit-icons.min.js"></script>
+
+        <style>
+            .uk-label{
+                color: black;
+                text-transform: none;
+                background-color: transparent;
+                border: 1px solid black;
+                padding: 0px 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="uk-navbar-container uk-margin uk-light" style="background-color: #3d95e7" uk-navbar>
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-item uk-logo uk-text-primary" href="index.html">Jingtian's Homepage</a>
+            </div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active uk-visible@m"> <a href="index.html"> Home </a> </li>
+                    <li class="uk-active uk-visible@m"> <a href="index.html#research"> Projects </a> </li>
+                    <li class="uk-active uk-visible@m"> <a href="index.html#contact"> Contact </a> </li>
+                    <a class="uk-active uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#offcanvas-nav-primary" uk-toggle></a>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+            <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                    <li class="uk-active"> <a href="index.html"> Home </a> </li>
+                    <li class="uk-active"> <a href="index.html#research"> Projects </a> </li>
+                    <li class="uk-active"> <a href="index.html#contact"> Contact </a> </li>
+                    <li class="uk-active"> <a href="index.html#bio"> About </a> </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <!-- <div class="uk-section uk-flex uk-flex-center uk-section-secondary uk-light"> -->
+        <div class="uk-flex uk-flex-center">
+            <div class="uk-container uk-width-1-1 uk-width-3-4@m uk-padding-small" uk-grid>
+            <!-- <div class="uk-container uk-container-large uk-flex-middle uk-padding-small" uk-grid> -->
+                <a class="uk-flex uk-flex-center uk-width-1-1 uk-width-auto@m uk-margin-top" href="#">
+                    <div class="uk-width-1-1 uk-width-medium@s uk-visible@l">
+                        <img class="uk-responsive-height uk-responsive-width" src="images/selfie.png" alt="Portrait" />
+                    </div>
+                </a>
+                <div class="uk-width-expand uk-margin-remove">
+                    <p class="uk-h1 uk-text-center uk-text-left@m uk-width-expand@m uk-margin-remove">
+                        Jingtian Wang
+                    </p>
+                    <p>
+                        I am a senior at <a href="https://spst.shanghaitech.edu.cn">SPST</a> of <a href="https://www.shanghaitech.edu.cn/eng/">ShanghaiTech University</a>. 
+                        I major in chemistry and I have conducted research regarding CO<sub>2</sub> hydrogenation and CO<sub>2</sub> electro-reduction under the supervision of 
+                        <a href="https://spst.shanghaitech.edu.cn/2019/0902/c2349a56866/page.htm">Prof. Fan Yang</a>.
+                        Besides, I am now conducting research about photovoltaic materials under the guidance of<a href="https://spst.shanghaitech.edu.cn/2018/0301/c2349a52605/page.htm"> Prof. Zhijun Ning</a>.
+                        My ongoing research topics are <a href="#nr">zero dimensional perovskite nanocrystals</a> and <a href="#irrgb">Sn-based perovskite solar cells</a>.
+                    </p>
+                    <!-- Buttons for desktop device -->
+                    <div class="uk-margin-horizontal uk-visible@m">
+                        <a href="#contact" class="uk-button uk-button-default uk-margin-small-right" uk-icon="mail"> Mail </a>
+                    </div>
+                    <!-- Buttons for mobile device -->
+                    <div class="uk-margin-horizontal uk-flex uk-flex-center uk-hidden@m">     
+                        <a href="#contact" class="uk-button uk-button-default uk-margin-small-right" uk-icon="mail"></a>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Body -->
+        <div class="uk-flex uk-flex-center uk-margin-remove-top uk-margin-medium-bottom">
+        <div class="uk-container uk-width-1-1 uk-width-3-4@m uk-padding-small">
+            <p id="research" class="uk-h2 uk-text-bold">Research</p>
+            <ul class="uk-list uk-list-divider">
+
+                      
+   
+
+            <li>
+                <ul class="uk-list uk-margin-small-bottom">
+                    <li>
+                        <div id="nr" class="uk-text-lead">
+                            <!-- <span class="uk-label">Research</span> -->
+                            3D Structure Mediated Growth of Zero Dimensional Cs<sub>4</sub>SnX<sub>6</sub> Nanocrystals
+                        </div>
+                        <div> Kaimin Xu, Qi Wei, Bing Yao, Wenjia Zhou, Rong Gao, Hao Chen, Hansheng Li, Jingtian Wang, Zhijun Ning </div>
+                        <b><i> Nanoscale</i></b>
+                        <div> In this paper, we developed a 3D structure mediated method to synthesize inorganic 0D tin perovskite NCs. The PLQY of Cs<sub>4</sub>SnBr<sub>6</sub> NCs achieved 52%, which is the highest value for tin perovskite NCs up to now. </div>
+                        <a class="uk-flex uk-flex-center uk-width-1-1 uk-width-auto@m uk-margin-top" href="#">
+                            <div class="uk-width-1-1 uk-width-large uk-visible@l">
+                                <img class="uk-responsive-height uk-responsive-width" src="images/QD1.png" alt="Taekwondo" />
+                                <img class="uk-responsive-height uk-responsive-width" src="images/QD2.png" alt="Taekwondo" />
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                
+            </li>
+
+            <li>
+                <ul class="uk-list uk-margin-small-bottom">
+                    <li>
+                        <div id="irrgb" class="uk-text-lead">
+                            <!-- <span class="uk-label">Research</span> -->
+                            Reduction of Defect Density in Sn-based Perovsite Solar Cells by a Component Split Synthetic Method
+                        </div>
+                        <div> In this project, we suggested that a component split synthetic method which divided Formamidine Hydroiodide (FAI) into Formamidine Acetate (FAAc) and Ammonium Iodide (NH<sub>4</sub>I) can elevate the energy barrier of perovskite formation and slow down the formation of perovskite film, thus reducing defect density. So far, a power conversion efficiency of 14% has been achieved.</div>
+                        <a class="uk-flex uk-flex-center uk-width-1-1 uk-width-auto@m uk-margin-top" href="#">
+                            <div class="uk-width-1-1 uk-width-large uk-visible@l">
+                                        <img class="uk-responsive-height uk-responsive-width" src="images/FAAc1.png" alt="Taekwondo" />
+                                        <img class="uk-responsive-height uk-responsive-width" src="images/FAAc2.png" alt="Taekwondo" />
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                
+            </li>
+
+            <li>
+                <ul class="uk-list uk-margin-small-bottom">
+                    <li>
+                        <div id="realtime" class="uk-text-lead">
+                            <!-- <span class="uk-label">Research</span> -->
+                            Formation of Low-Dimensional Perovskite Structure by Incorporating 2,2-Bipyridine Hydroiodide
+                        </div>
+                        <div> In this project, a large ammonium molecule, 2,2-Bipyridine (Bpy), was found to be able to guide the formation of low-dimensional layered perovskite structure. </div>
+                        <a class="uk-flex uk-flex-center uk-width-1-1 uk-width-auto@m uk-margin-top" href="#">
+                            <div class="uk-width-1-1 uk-width-large uk-visible@l">
+                                <img class="uk-responsive-height uk-responsive-width" src="images/Bpy1.png" alt="Taekwondo" />
+                            </div>
+                        </a>
+                        
+                    </li>
+                </ul>
+                
+            </li>
+
+            <li>
+                <ul class="uk-list uk-margin-small-bottom">
+                    <li>
+                        <div id="realtime" class="uk-text-lead">
+                            <!-- <span class="uk-label">Research</span> -->
+                            ZnO Supported Ag@Pd Core@Shell Nanocatalysts in CO<sub>2</sub> Hydrogenation to CH<sub>3</sub>OH
+                        </div>
+                        <div> In this project, we found that Ag@Pd/ZnO(EG) catalyst perform a higher CO<sub>2</sub> conversion ad methanol selectivity in CO<sub>2</sub> hydrogenation reaction than their counterparts supported on zinc oxide with different morphologies. SEM results indicate the microstructure of ZnO(EG) is nanosphere, which is different from ZnO(Me) and ZnO(H<sub>2</sub>O) nanorod. XRD results show the significant difference in crystal plane of these three kinds of zinc oxide. Combining these characterizations, we hypothesize defects on ZnO influence the reaction performance. Catalyst performance under higher activation temperature of 250&#8451; presents an transition of active sites between 240 and 250&#8451;, which is a critical point for further analysis.</div>
+                        <a class="uk-flex uk-flex-center uk-width-1-1 uk-width-auto@m uk-margin-top" href="#">
+                            <div class="uk-width-1-1 uk-width-large uk-visible@l">
+                                <img class="uk-responsive-height uk-responsive-width" src="images/Pd1.png" alt="Taekwondo" />
+                                <img class="uk-responsive-height uk-responsive-width" src="images/Pd2.png" alt="Taekwondo" />
+                            </div>
+                        </a>
+                        
+                    </li>
+                </ul>
+                
+            </li>
+
+
+
+            </ul>
+            </li>
+            </ul>
+            
+
+            <p id="contact" class="uk-h2 uk-text-bold">Contact</p>
+            <div class="uk-child-width-1-2@m" uk-grid>
+                <div class="uk-width-large">
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title">Address</h3>
+                        <p>
+                            5-203, SPST Building <br/>
+                            393 Middle Huaxia Road <br/>
+                            Pudong, Shanghai  <br/>
+                            P.R. China <br/>
+                            201210
+                        </p>
+                        <p> </p>
+                        <p> </p>
+                    </div>
+                </div>
+                <div class="uk-width-large">
+                    <div class="uk-card uk-card-primary uk-card-hover uk-card-body"  style="background-color: #3d95e7">
+                        <h3 class="uk-card-title">Email</h3>
+                        <p>
+                            <b>Academic</b> <br/>
+                            wangjt2 [at] shanghaitech.edu.cn
+                        </p>
+                        <p>
+                            <b>Other Use</b> <br/>
+                            wang991118 [at] gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        <!-- Visitor recorder -->
+        <img src='http://www.wjjsoft.com/cgi-bin/_count_wph.cgi?q=profile' width=1 style='visibility: hidden' />
+
+        <!-- Footer -->
+        <div class="uk-section uk-flex uk-flex-center uk-section-secondary uk-height-small" style="background-color: #3d95e7">
+            <div class="uk-container uk-container-large uk-text-primary">
+                <p class="uk-text-small uk-text-center">Copyright &copy; 2021 Jingtian Wang. All Rights Reserved.</p>
+                <p class="uk-text-small uk-text-center">Powered by <span uk-icon="uikit">UIkit</span></p>
+            </div>
+        </div>
+
+    </body>
+</html>
